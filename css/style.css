@@ -5,6 +5,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    
 }
 
 a{
@@ -19,6 +20,27 @@ a{
     border-radius: 8px;
     font-weight: bold;
     border: none;
+}
+
+.w-1140{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.font-primary{
+    color: #4E47FF;;
+}
+
+.font-dark1{
+    color: #000000;
+}
+
+.font-dark2{
+    color: rgba(37, 36, 50, 1);
+}
+
+.font-dark3{
+    color: rgba(37, 36, 50, 0.5);
 }
 
 /* header style */
@@ -37,18 +59,44 @@ header nav{
     padding: 50px 0;
 }
 
-.logo{
-    color: #4E47FF;
-}
-
 .header-body{
     text-align: center;
     max-width: 910px;
     text-align: center;
-    margin: 120px auto;
+    margin: 140px auto 170px auto;
 }
 
 .header-body h1{
     font-size: 65px;
     margin-bottom: 30px;
+}
+
+main{
+    background-color: #F5F8FF;
+    overflow: hidden;
+}
+
+.preview-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px auto;
+}
+
+main h2{
+    font-size: 42px;
+}
+
+.preview-section .column1, .preview-section .column2{
+    max-width: 500px;
+}
+
+.preview-section img{
+    max-width: 410px;
+    border-radius: 45px;
+}
+
+.preview-section p{
+    font-size: 24px;
+    margin: 15px 0;
 }
