@@ -206,13 +206,39 @@ main h2{
     border-radius: 50%;
 }
 
+.optional-section{
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-align: center;
+    padding: 70px;
+}
+
+.optional-section h1{
+    font-size: 50px;
+}
+
+.optional-section p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.optional-section img{
+    display: block;
+    
+    border-radius: 48px;
+    max-width: 840px;
+    margin: auto;
+    margin-top: 20px;
+}
 .contact-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
     font-family: "Inter", sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
+    margin-top: 120px;
 }
 
 .contact-section h1{
