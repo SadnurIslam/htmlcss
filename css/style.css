@@ -136,7 +136,6 @@ main h2{
 }
 
 .review-section{
-    max-width: 1140px;
     margin: 135px auto;
 }
 
@@ -190,4 +189,36 @@ main h2{
 
 .info-box img{
     border-radius: 50%;
+}
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-section h1{
+    font-size: 90px;
+}
+
+
+.contact-section input{
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dfd7d7;
+    padding: 20px 30px;
+}
+
+
+.contact-section textarea{
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dfd7d7;
+    padding: 20px 30px;
 }
