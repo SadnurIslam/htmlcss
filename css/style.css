@@ -23,20 +23,13 @@ a{
     border: none;
 }
 
-/* .btn-primary:hover {
-    background-color: #0056b3;      
-    box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
-    cursor: pointer;
-    scale: 1.03;
-    transition: 0.3s;
-} */
 
 .btn-primary:hover {
-    background-color: #0056b3;      /* Darker blue */
-    color: #FFFEFC;                 /* Example: gold text on hover */
-    font-weight: 600;               /* Slightly bolder */
+    background-color: #0056b3;      
+    color: #FFFEFC;                 
+    font-weight: 600;               
     transform: scale(1.05);   
-    cursor: pointer;      /* Zoom effect */
+    cursor: pointer;      
 }
 
 .w-1140{
@@ -86,6 +79,8 @@ header nav{
     font-size: 65px;
     margin-bottom: 30px;
 }
+
+/* main section style */
 
 main{
     background-color: #F5F8FF;
@@ -166,7 +161,7 @@ main h2{
     margin-top: 20px;
 }
 .comment-box p{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .review-section h4{
@@ -193,7 +188,7 @@ main h2{
 
 .fa-solid.fa-star {
     color: #FFB805;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .info-box{
@@ -269,6 +264,8 @@ form label{
     font-size: 18px;
     font-weight: 500;
 }
+
+/* footer style */
 
 footer{
     background-color: #FFFFFF;
