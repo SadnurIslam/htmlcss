@@ -249,6 +249,7 @@ main h2{
     margin-bottom: 20px;
     border: 1px solid #dfd7d7;
     padding: 20px 30px;
+    font-size: 20px;
 }
 
 
@@ -259,6 +260,7 @@ main h2{
     margin-bottom: 15px;
     border: 1px solid #dfd7d7;
     padding: 20px 30px;
+    font-size: 20px;
 }
 
 form label{
