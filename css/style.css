@@ -23,6 +23,22 @@ a{
     border: none;
 }
 
+/* .btn-primary:hover {
+    background-color: #0056b3;      
+    box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+    cursor: pointer;
+    scale: 1.03;
+    transition: 0.3s;
+} */
+
+.btn-primary:hover {
+    background-color: #0056b3;      /* Darker blue */
+    color: #FFFEFC;                 /* Example: gold text on hover */
+    font-weight: 600;               /* Slightly bolder */
+    transform: scale(1.05);   
+    cursor: pointer;      /* Zoom effect */
+}
+
 .w-1140{
     max-width: 1140px;
     margin: auto;
@@ -46,7 +62,6 @@ a{
 
 /* header style */
 header{
-    max-width: 1440px;
     background-image: url('../images/Hero-bg.png');
     background-size: auto 100%;
     overflow: hidden;
@@ -197,6 +212,7 @@ main h2{
     justify-content: space-between;
     gap: 40px;
     font-family: "Inter", sans-serif;
+    margin-bottom: 60px;
 }
 
 .contact-section h1{
@@ -221,4 +237,46 @@ main h2{
     margin-bottom: 15px;
     border: 1px solid #dfd7d7;
     padding: 20px 30px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding: 110px 0;
+}
+
+.footer-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+footer h1{
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+footer p{
+    color: rgba(137, 135, 161, 1);
+}
+
+footer ul li a{
+    color: rgba(137, 135, 161, 1);
+}
+
+footer ul li a:hover{
+    color: rgb(91, 85, 165);;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-top: 20px;
 }
