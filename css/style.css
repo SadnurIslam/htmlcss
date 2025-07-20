@@ -63,6 +63,7 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1140px;
     margin: auto;
     padding: 50px 0;
@@ -293,7 +294,7 @@ footer ul li a{
 }
 
 footer ul li a:hover{
-    color: rgb(91, 85, 165);;
+    color: rgb(99, 91, 184);;
 }
 
 footer ul{
